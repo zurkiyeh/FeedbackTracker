@@ -1,0 +1,1 @@
+sudo g++ -o main main.cpp  mySerial.cpp updateServos.cpp -lwiringPi
