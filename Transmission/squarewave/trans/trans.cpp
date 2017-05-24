@@ -1,3 +1,15 @@
+/**
+//============================================================================
+// Name        : rec2.cpp
+// Author      : Zachary Liu
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+// Description : Transmits a raw squarewave. No encoding envolved. 
+//============================================================================
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

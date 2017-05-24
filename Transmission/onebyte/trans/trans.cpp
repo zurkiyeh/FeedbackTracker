@@ -1,3 +1,15 @@
+/**
+//============================================================================
+// Name        : rec2.cpp
+// Author      : Zachary Liu
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+// Description : transmits one binary byte 
+//============================================================================
+*/
+
+
+
 #include <stdio.h>
 #include <unistd.h>		//Used for UART
 #include <fcntl.h>		//Used for UART

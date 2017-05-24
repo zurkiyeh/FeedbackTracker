@@ -1,3 +1,16 @@
+/**
+//============================================================================
+// Name        : Main.cpp
+// Author      : Zachary Liu
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+// Description : Binary transmission using the magick++ library
+//============================================================================
+*/
+
+
+
+
 #include <Magick++.h>
 #include <unistd.h>
 #include <stdio.h>

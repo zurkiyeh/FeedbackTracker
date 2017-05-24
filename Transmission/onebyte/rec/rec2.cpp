@@ -1,3 +1,13 @@
+/**
+//============================================================================
+// Name        : rec2.cpp
+// Author      : Zachary Liu
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+// Description : recieves one binary byte 
+//============================================================================
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>

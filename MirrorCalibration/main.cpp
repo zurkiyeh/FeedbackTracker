@@ -1,3 +1,14 @@
+/**
+//============================================================================
+// Name        : Main.cpp
+// Author      : Anas Zurkiyeh & Zachary Liu
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+// Description : Used to calibrate servo-controlled optical mirror remotely using a Rpi 
+//============================================================================
+*/
+
+
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>

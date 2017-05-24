@@ -1,4 +1,11 @@
 /**
+//============================================================================
+// Name        : Main.cpp
+// Author      : Anas Zurkiyeh
+// Version     : 1.0
+// Copyright   : Check LICENSE file
+
+// Description : 
  * This is the main program interface where the identifying and the 
  * detection of the object happens. Then a decision on how to move the 
  * servos is made!
