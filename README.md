@@ -1,46 +1,34 @@
+# Feedback Tracker
 
+## Project source code
+
+For the source code for this project, please refer to the following github repository [Feedback Tracker](https://github.com/zurkiyeh/FeedbackTracker)
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+The main purpose of this application is to employ the computer vision library opencv in tracking a moving target. Then using feedback on the new location to ensure constant data transmission to the target via laser.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This application was developed for [iBionics] (http://www.ibionics.ca). Which is a startup company that is planning to use this project as a basis for their main system. The main system consists of 2 subsystems; Tracking and detection subsystem as well as transmition and recieving subsystem.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Clone the repo to a Raspberry pi, then run the [tracking code](https://github.com/zurkiyeh/FeedbackTracker/tree/master/Tracker/build) by running the executable "mainProject". That will initiate the tracking process. Meanwhile run the [Transmission application](https://github.com/zurkiyeh/FeedbackTracker/tree/master/Transmission/onebyte/trans) on a seperate Raspberry pi. Finally, to recieve the data, run the [receiving application](https://github.com/zurkiyeh/FeedbackTracker/tree/master/Transmission/onebyte/rec) on a third RPi. 
 
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+Tests and simulations were conducted on the project report which can be provided seperetly. Please contact me for more information.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+This project was developed with the help of [Zachary (Tsa) Liu ](https://www.linkedin.com/in/tsaliu)
 
 
 
-# FeedbackTracker
+## Detailed Description
 
-The main purpose of this application is to employ the computer vision library opencv in tracking a moving target. Then using feedback on the new location to ensure constant data transmission to the target via laser.
-
-# Description
-
-This application was developed for iBionics. Which is a startup company that is planning to use this project as a basis for their main system. The main system consists of 2 subsystems; Tracking and detection subsystem as well as transmition and recieving subsystem.
 
 The transmission subsystem consists of a servo-controlled target that rotates along two axes in a spherical fashion. The tracking is done using a feedback camera, fixed infront of the target, and controlled by a Raspberry Pi. The Raspberry Pi also, directs a servo-controlled optical mirror that rotates along two axes based on the feedback it recieves from the camera. This ensures real-time transmission and recieving of data.The transmission and recieving of data is done using another two seperate Raspberry Pis.
 
